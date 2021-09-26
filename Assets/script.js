@@ -8,9 +8,6 @@ function updateClock() {
   setInterval(updateClock, 1000);
 var currentTime = moment();
 
-// var modalBtn = document.getElementsByClassName('card-link');
-
-
 // // main and bttn form var
 // var projectFormEl = $("#project-form");
 // var submitBttn = $("#submitBttn");
@@ -36,13 +33,6 @@ var currentTime = moment();
 //     printInput();
 // };
 
-function openModal(){
-    $('#myModal').modal('show');  
-}
-
-$('.card-link').on('show.bs.modal', function () {
-    $('#myInput').trigger('focus')
-  })
 
 // submitBttn.addEventListener("submit", captureInput);
-// // modalBtn.addEventListener('click', openModal);
+

@@ -37,17 +37,44 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Add a new project.</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <form>
+          <div class="form-group">
+            <label>Project Name</label>
+            <input type="text" class="form-control" id="projectName" placeholder="Enter Project Name">
+          </div>
+          <div class="form-group">
+            <label>Project Type</label>
+            <div>
+              <select class="form-select form-select-lg mb-3 form-control" aria-label=".form-select-lg example" style="width:100%" id ="projectType">
+                <option selected>Pick One...</option>
+                <option value="1">Web Application (Front End)</option>
+                <option value="2">Web Application (Back End)</option>
+                <option value="3">Web Application (Full Stack)</option>
+                <option value="3">Mobile Application</option>
+                <option value="3">Print Campaign</option>
+                <option value="3">Digital Marketing Campaign</option>
+              </select>
+          </div>
+          </div>
+          <div class="form-group">
+            <label>Hourly Rate ($)</label>
+            <input type="text" class="form-control" id="hourlyRate" placeholder="Enter Hourly Rate">
+          </div>
+          <div class="form-group">
+            <label>Due Date</label>
+            <input type="text" class="form-control" id="dueDate" placeholder="Enter Due Date">
+          </div>
+        </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-primary">Submit Project Info</button>
       </div>
     </div>
   </div>

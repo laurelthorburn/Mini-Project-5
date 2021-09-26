@@ -18,6 +18,11 @@ text-align: center;
     border: solid 1px #303D4E;
 }
 
+.modal-content {
+    background-color: #303D4E; 
+}
+
+#exampleModalLabel,
 .card-img-top {
     background-color: #303D4E; 
     font-family: Arial, Helvetica, sans-serif;
@@ -25,6 +30,10 @@ text-align: center;
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
+}
+
+.modal-body {
+    background-color: #EDF0F1;
 }
 
 .card-body{
@@ -35,6 +44,7 @@ background-color: #EDF0F1;
     background-color: #303D4E; 
     text-align: center;
 }
+
 .card-link {
     width: 150px;
     border-radius: 8px;
@@ -62,4 +72,18 @@ td {
 
 tr {
     height: 25px;   
+}
+
+#projectType {
+    background-color: rgb(56, 60, 63);
+    color: white;
+}
+
+.btn-primary {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: none;
+    background-color: #EDF0F1;
+    color: #303D4E; 
+    font-weight: bold;
 }
