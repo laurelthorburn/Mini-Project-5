@@ -1,5 +1,7 @@
 # Mini Project: Project Tracker
 
+* Access my link here: https://laurelthorburn.github.io/Mini-Project-5/
+
 In this project, you will work with others to create a project tracker application using Bootstrap, jQuery, jQueryUI, Moment, and Google Fonts. Break up these phases amongst members of your team.
 
 ## Instructions
