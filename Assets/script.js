@@ -8,32 +8,41 @@ function updateClock() {
   setInterval(updateClock, 1000);
 var currentTime = moment();
 
+// var modalBtn = document.getElementsByClassName('card-link');
 
 
+// // main and bttn form var
+// var projectFormEl = $("#project-form");
+// var submitBttn = $("#submitBttn");
 
-// main and bttn form var
-var projectFormEl = $("#project-form");
-var submitBttn = $("#submitBttn");
+// // Capturing the element with users input
+// var projectName = $("#projectName").value;
+// var projectType = $("#projectType").value;
+// var dueDate = $("#dueDate").value;
+// var hourlyRate = $("#hourlyRate").value;
 
-// Capturing the element with users input
-var projectName = $("#projectName").value;
-var projectType = $("#projectType").value;
-var dueDate = $("#dueDate").value;
-var hourlyRate = $("#hourlyRate").value;
+// // object for storing project info and later transferring it
+// var project = [
+//     projectName = "",
+//     projectType = "",
+//     dueDate = "",
+//     hourlyRate = ""
+// ];
 
-// object for storing project info and later transferring it
-var project = [
-    projectName = "",
-    projectType = "",
-    dueDate = "",
-    hourlyRate = ""
-];
-
-// take users input and transfers in to the object
-function captureInput(){
+// // take users input and transfers in to the object
+// function captureInput(){
  
-// function to print the object from last function
-    printInput();
-};
+// // function to print the object from last function
+//     printInput();
+// };
 
-submitBttn.addEventListener("submit", captureInput);
+function openModal(){
+    $('#myModal').modal('show');  
+}
+
+$('.card-link').on('show.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+
+// submitBttn.addEventListener("submit", captureInput);
+// // modalBtn.addEventListener('click', openModal);
