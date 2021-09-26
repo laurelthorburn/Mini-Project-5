@@ -1,0 +1,65 @@
+body {
+    background-color: #EDF0F1;
+}
+
+.jumbotron {
+background-color: #303D4E;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+.flex-parent {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card {
+    border: solid 1px #303D4E;
+}
+
+.card-img-top {
+    background-color: #303D4E; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card-body{
+background-color: #EDF0F1;
+}
+
+.card-end {
+    background-color: #303D4E; 
+    text-align: center;
+}
+.card-link {
+    width: 150px;
+    border-radius: 8px;
+    box-shadow: none;
+    background-color: #EDF0F1;
+    color: #303D4E; 
+    font-weight: bold;
+}
+
+.table {
+    background-color: #303D4E;
+    border: 1px solid #EDF0F1;
+    color: #EDF0F1;
+    margin-left: 50px;
+}
+
+.table > thead {
+background-color: #D75745;
+}
+
+td {
+    border: 1px solid #EDF0F1;
+    height: 25px;
+}
+
+tr {
+    height: 25px;   
+}
